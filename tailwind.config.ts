@@ -7,7 +7,10 @@ import contentQueries from "@tailwindcss/container-queries";
 
 const config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    './pages/**/*.{ts,tsx}',
+		'./components/**/*.{ts,tsx}',
+		'./app/**/*.{ts,tsx}',
+		'./src/**/*.{ts,tsx}',
     "./node_modules/rizzui/dist/*.{js,ts,jsx,tsx}",
     // "../../packages/isomorphic-core/src/**/*.{js,ts,jsx,tsx}",
   ],
